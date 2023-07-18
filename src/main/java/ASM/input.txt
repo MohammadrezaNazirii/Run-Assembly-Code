@@ -1,0 +1,51 @@
+MOv eax , 12
+mov bx , 8
+mov ecx, 0
+
+Comment ?
+    this is a comment ?
+
+Sub eax , ebx
+Sub eax , ebx
+add eax ,ebx
+mov ecx ,1101b
+mov edx ,0
+
+mov ecx ,3
+mov eax ,5
+mov ebx , 0
+l:
+add ebx , eax
+loop l
+
+jmp  m
+mov edx , 2
+m:
+mov edx , 1
+mov ebx , 1
+a:
+    add edx, 1
+    sub ebx ,1
+jz a
+add ebx ,1
+jz e
+    mov ebx , 1
+e:
+
+mov eax , 5
+mov ebx , 1
+xchg eax ,ebx
+
+sub eax , 5
+
+test eax , 0
+
+  add eax , 8
+clc
+comment !
+mov eax ,111110000111111111111111111111b
+mov bl, 11111110b
+movsx eax, bh
+!
+xor eax,eax
+end
